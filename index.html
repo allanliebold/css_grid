@@ -19,6 +19,31 @@
         grid-column-start: start;
         grid-column-end: end;
       }
+      
+      Grid Areas
+      
+      .container {
+        display: grid;
+        grid-template-areas:
+          "header header header"
+          "sidebar content content"
+          "sidebar content content"
+          "footer footer footer";
+      }
+      
+      .cell-1 {
+        grid-area: header;
+      }
+      .cell-2 {
+        grid-area: content;
+      }
+      .cell-3 {
+        grid-area: sidebar;
+      }
+      .cell-4 {
+        grid-area: footer;
+      }
+      
       */
       
       /* Repeat Function and Fraction Units */
