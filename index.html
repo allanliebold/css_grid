@@ -24,12 +24,14 @@
       
       .container {
         display: grid;
+        grid-template-columns: 100px auto 100px;
+        grid-template-rows: 100px auto auto 100px;
         grid-template-areas:
           "header header header"
           "sidebar content content"
           "sidebar content content"
           "footer footer footer";
-      }
+       }
       
       .cell-1 {
         grid-area: header;
