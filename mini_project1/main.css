@@ -17,3 +17,10 @@
     color: white;
     text-transform: uppercase;
 }
+.item-1 {
+    background: url(clouds-1.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    color: black;
+}
