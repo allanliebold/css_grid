@@ -51,4 +51,8 @@
         background-color: blue;
         grid-area: two;
     }
+    .item-3 {
+        background-color: green;
+        grid-area: three;
+    }
 }
