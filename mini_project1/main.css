@@ -33,3 +33,7 @@
 .item-4 {
     background-color: blue;
 }
+
+@media screen and (min-width:576px) {
+    
+}
