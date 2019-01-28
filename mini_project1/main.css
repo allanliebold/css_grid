@@ -46,4 +46,9 @@
         font-size: 40px;
         text-transform: none;
     }
+    
+    .item-2 {
+        background-color: blue;
+        grid-area: two;
+    }
 }
