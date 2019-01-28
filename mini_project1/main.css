@@ -45,8 +45,10 @@
     .item {
         font-size: 40px;
         text-transform: none;
+    }    
+    .item-1 {
+        grid-area: one;   
     }
-    
     .item-2 {
         background-color: blue;
         grid-area: two;
