@@ -1,46 +1,90 @@
 <!DOCTYPE html>
-<html lang="">
+<html>
 <head>
-  <meta charset="utf-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Nested Grids</title>
-  <link rel="stylesheet" href="main.css"></head>
-  <style>
-    #outer-grid {
-      display: grid;
-      height: 100vh;
-      grid-template-columns: 1fr;
-      grid-template-rows: .5fr 3fr 1fr;
-    }
-    #outer-grid > div {
-      background: lightblue;
-    }
-    #inner-grid {
-      display: grid;
-      grid-template-columns: 1fr;
-      grid-template-rows: 1fr 1fr 1fr;
-    }
-    #inner-grid > div {
-      background: darkblue;
-    }
-  </style>
+    <title>Nested Grids</title>
+    <link rel="stylesheet" href="main.css">
+    <style>
+        body {
+            background: black;
+        }
+
+        #display-layout {
+            display: grid;
+            height: 100vh;
+            grid-template-rows: .2fr 3fr 1fr;
+            grid-template-columns: 1fr;
+            grid-gap: 8px;
+        }
+        #display-layout > div {
+            background-color: midnightblue;
+            color: white;
+            font-size: 4vw;
+            padding: 8px;
+        }
+        #interface {
+            display: grid;
+            grid-template-columns: 1fr .5fr .5fr;
+            grid-gap: 5px;
+        }
+        #text-display {
+            background: black;
+        }
+        #controls {
+            background: gray;
+            display: grid;
+            grid-template-columns: 1fr 1fr 1fr;
+            grid-template-rows: 1fr 1fr 1fr;
+            justify-content: center;
+            
+        }
+        #controls > div {
+            justify-content: center;
+            align: center;
+        }
+        #controls > div > button {
+            width: 100%;
+            height: 100%;
+            font-size: 4vw;
+        }
+        #inventory {
+            display: grid;
+            grid-template-rows: 1fr 1fr;
+            grid-template-columns: 1fr 1fr 1fr;
+            grid-gap: 4px;
+            background: darkslategray;
+        }
+        #inventory > div {
+            background: white;
+            border: 4px solid gray;
+            text-align: center;
+            color: black;
+            font-size: 1vw;
+        }
+    </style>
+</head>
 <body>
-  <div id="outer-grid">
-    <div>Top Bar</div>
-    <div>Image Area</div>
-    <div>Bottom Bar</div>
-    <div id="inner-grid">
-      <div id="text-field">Text</div>
-      <div id="controls">Controls</div>
-      <div id="inventory">
-        <div>Item 1</div>
-        <div>Item 2</div>
-        <div>Item 3</div>
-        <div>Item 4</div>
-        <div>Item 5</div>
-        <div>Item 6</div>
-      </div>
+<div id="display-layout">
+    <div id="top-bar">Top Bar</div>
+    <div id="display-view">View</div>
+    <div id="interface">
+        <div id="text-display">Text</div>
+        <div id="controls">
+            <div><button><</button></div>
+            <div><button>^</button></div>
+            <div><button>></button></div>
+            <div></div><div></div><div></div>
+        </div>
+        <div id="inventory">
+            <div>Item 1</div>
+            <div>Item 2</div>
+            <div>Item 3</div>
+            <div>Item 4</div>
+            <div>Item 5</div>
+            <div>Item 6</div> 
+        </div>
     </div>
-  </div>
-</body>  
+</div>
+
+</body>
+
 </html>
