@@ -106,6 +106,12 @@ body {
     #aside {
         grid-area: aside;
     }
+    #aside ul {
+        height: 100%;
+        flex-direction: column;
+        justify-content: space-around;
+        align-items: center;
+    }
     #footer {
         grid-area: footer;
     }
@@ -123,11 +129,5 @@ body {
     }
     #nav ul a:hover {
         background: #7e7880;
-    }
-    #aside ul {
-        height: 100%;
-        flex-direction: column;
-        justify-content: space-around;
-        align-items: center;
     }
 }
