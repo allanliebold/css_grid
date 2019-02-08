@@ -46,7 +46,7 @@ body {
 #nav ul a{
     text-decoration: none;
     color: #faa916;
-/* bigger screen */
+    /* bigger screen */
     background: transparent;
     font-size: 20px;
     transition: color 1s ease, background 1s ease;
