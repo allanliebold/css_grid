@@ -100,6 +100,15 @@ body {
     #nav {
         grid-area: navbar;
     }
+    #nav ul a {
+        width: 100px;
+        text-align: center;
+        display: block;
+        padding: 10px;
+    }
+    #nav ul a:hover {
+        background: #7e7880;
+    }    
     #content {
         grid-area: content;
     }
@@ -120,14 +129,5 @@ body {
         flex-direction: column;
         justify-content: flex-start;
         padding: 0;
-    }
-    #nav ul a {
-        width: 100px;
-        text-align: center;
-        display: block;
-        padding: 10px;
-    }
-    #nav ul a:hover {
-        background: #7e7880;
     }
 }
