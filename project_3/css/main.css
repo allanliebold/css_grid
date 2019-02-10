@@ -3,3 +3,9 @@
   --brightYellow: #E3B505;
   --black: #191919;
 }
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
