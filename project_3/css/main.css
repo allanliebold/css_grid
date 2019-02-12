@@ -18,3 +18,8 @@ body {
 .bell-fonts {
   font-family: 'La Belle Aurore', cursive; 
 }
+
+.header {
+  height: 100vh;
+  display: grid;
+}
