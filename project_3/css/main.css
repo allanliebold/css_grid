@@ -61,4 +61,6 @@ body {
 .banner__social-icon {
   display: block;
   text-decoration: none;
+  color: var(--black);
+  border: 0.1rem solid var(--black);
 }
