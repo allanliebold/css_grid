@@ -29,7 +29,7 @@ body {
 
 @media screen and (max-width: 768px) {
   .header {
-    background: url('../img/headerBcg.jpeg'); 
+    background: url('../img/headerBcg.jpeg')center/cover fixed no-repeat; 
     /* 
     background-position: center;
     background-size: cover;
