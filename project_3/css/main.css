@@ -1,9 +1,9 @@
 @import url('https://fonts.gooleapis.com/css?family=La+Belle+Aurore|Open+Sans');
 
 :root {
-  --brightYellow: #E3B505;
   --black: #191919;
   --brown: #382923;
+  --brightYellow: #E3B505;  
   --yellow: rgb(242, 180, 80);
 }
 
