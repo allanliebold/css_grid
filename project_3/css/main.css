@@ -40,3 +40,8 @@ body {
     */
   }
 }
+
+.banner {
+  text-align: center;
+  z-index: 3;
+}
