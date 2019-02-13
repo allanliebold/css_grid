@@ -46,5 +46,7 @@ body {
   z-index: 3;
 }
 .banner__title {
-  
+  font-size: 4rem;
+  text-transform: capitalize;
+  color: var(--brightYellow);
 }
