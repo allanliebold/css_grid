@@ -57,3 +57,8 @@ body {
     font-size: 9rem; 
   }
 }
+
+.banner__social-icon {
+  display: block;
+  text-decoration: none;
+}
