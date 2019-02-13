@@ -30,7 +30,7 @@ body {
 @media screen and (max-width: 768px) {
   .header {
     background: url('../img/headerBcg.jpeg')center/cover fixed no-repeat; 
-    /* 
+    /* ^ That's one line shorthand for all of the below. 
     background-position: center;
     background-size: cover;
     background-attachment: fixed;
