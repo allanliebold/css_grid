@@ -1,11 +1,11 @@
 function eventListeners() {
   const ui = new UI();
-}
 
-// hide preloader
-window.addEventListener('load', function() {
-  ui.hidePreloader();
-})
+  // hide preloader
+  window.addEventListener('load', function() {
+    ui.hidePreloader();
+  })
+}
 
 function UI() {
 }
