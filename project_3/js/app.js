@@ -10,3 +10,6 @@ window.addEventListener('load', function() {
 function UI() {
 }
 
+UI.prototype.hidePreloader = function() {
+  document.querySelector('.preloader').style.display = 'none'; 
+}
