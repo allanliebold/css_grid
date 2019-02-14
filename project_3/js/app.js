@@ -5,6 +5,11 @@ function eventListeners() {
   window.addEventListener('load', function() {
     ui.hidePreloader();
   })
+  
+  // toggle nav bar
+  document.querySelector('.navBtn').addEventListener('click', function() {
+    ui.showNav();
+  })
 }
 
 function UI() {
