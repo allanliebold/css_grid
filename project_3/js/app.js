@@ -1,5 +1,5 @@
 function eventListeners() {
-  
+  const ui = new UI();
 }
 
 // hide preloader
