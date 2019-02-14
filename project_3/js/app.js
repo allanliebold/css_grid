@@ -4,7 +4,7 @@ function eventListeners() {
 
 // hide preloader
 window.addEventListener('load', function() {
-  document.querySelector('.preloader').style.display = 'none';
+  ui.hidePreloader();
 })
 
 function UI() {
