@@ -64,3 +64,7 @@ body {
   color: var(--black);
   border: 0.1rem solid var(--black);
 }
+.banner__social-icon:hover {
+    background: var(--brightYellow);
+    color: var(--black);
+}
