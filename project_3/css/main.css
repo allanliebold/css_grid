@@ -92,3 +92,13 @@ body {
     height: 100%;
     object-fit: cover;
 }
+.navBtn {
+    position: fixed;
+    top: 5%;
+    right: 5%;
+    font-size: 3rem;
+    color: var(--yellow);
+    animation-name: pulse;
+    cursor: pointer;
+    transition: all 0.25s linear;
+}
