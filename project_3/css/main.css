@@ -68,3 +68,12 @@ body {
     background: var(--brightYellow);
     color: var(--black);
 }
+.banner__icons {
+    width: 50%;
+    margin: 0 auto;
+    display: grid;
+    grid-template-columns: repeat(3, 2rem); 
+    /* 2rem 2rem 2rem; */
+    grid-column-gap: 0.5rem;
+    justify-content: center;
+}
