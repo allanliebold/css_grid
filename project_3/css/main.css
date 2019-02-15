@@ -102,3 +102,9 @@ body {
     cursor: pointer;
     transition: all 0.25s linear;
 }
+.navBtn:hover {
+    color: var(--brightYellow);
+    animation-name: pulse;
+    animation-duration: 2s;
+    animation-iteration-count: infinite;
+}
