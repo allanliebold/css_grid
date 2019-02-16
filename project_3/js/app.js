@@ -1,3 +1,5 @@
+eventListeners();
+
 function eventListeners() {
   const ui = new UI();
 
