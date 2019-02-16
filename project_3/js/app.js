@@ -20,5 +20,6 @@ function UI() {
 UI.prototype.hidePreloader = () => document.querySelector('.preloader').style.display = 'none'; 
 UI.prototype.showNav = function() => document.querySelector('nav').classList.toggle('nav--show'); 
 UI.prototype.videoControls = () => {
-  
+  let btn = document.querySelector('.video__switch-btn');
+  let video = document.querySelector('.video__item');
 }
