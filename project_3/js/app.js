@@ -4,9 +4,7 @@ function eventListeners() {
   const ui = new UI();
 
   // hide preloader
-  window.addEventListener('load', function() {
-    ui.hidePreloader();
-  })
+  window.addEventListener('load', () => ui.hidePreloader());
   
   // toggle nav bar
   document.querySelector('.navBtn').addEventListener('click', function() {
