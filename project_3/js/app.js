@@ -17,10 +17,9 @@ function eventListeners() {
 function UI() {
 }
 
-UI.prototype.hidePreloader = function() {
-  document.querySelector('.preloader').style.display = 'none'; 
-}
+UI.prototype.hidePreloader = () => document.querySelector('.preloader').style.display = 'none'; 
 
 UI.prototype.showNav = function() {
   document.querySelector('nav').classList.toggle('nav--show'); 
 }
+
