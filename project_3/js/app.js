@@ -18,8 +18,5 @@ function UI() {
 }
 
 UI.prototype.hidePreloader = () => document.querySelector('.preloader').style.display = 'none'; 
-
-UI.prototype.showNav = function() {
-  document.querySelector('nav').classList.toggle('nav--show'); 
-}
+UI.prototype.showNav = function() => document.querySelector('nav').classList.toggle('nav--show'); 
 
