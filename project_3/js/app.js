@@ -22,4 +22,7 @@ UI.prototype.showNav = function() => document.querySelector('nav').classList.tog
 UI.prototype.videoControls = () => {
   let btn = document.querySelector('.video__switch-btn');
   let video = document.querySelector('.video__item');
+  
+  btn.classList.contains('btnSlide') ? video.play() : video.pause();
+  btn.classList.toggle('btnSlide');
 }
