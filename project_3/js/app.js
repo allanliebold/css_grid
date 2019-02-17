@@ -46,3 +46,6 @@ UI.prototype.showFeedback = (text, type) => {
   feedback.classList.add(type);
   feedback.innerText = text; 
 }
+UI.prototype.removeAlert = (type) => {
+ 
+}
