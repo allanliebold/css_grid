@@ -25,6 +25,7 @@ function eventListeners() {
       let customer = new Customer(firstName, lastName, email);
       alertText = 'customer added';
       alertType = 'success';
+      ui.clearFields();
     } else {
       alertText = 'please fill in all info';
       alertType = 'error';
