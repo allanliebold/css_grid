@@ -19,6 +19,7 @@ function eventListeners() {
     const email = document.querySelector('.input-email').value; 
     
     let value = ui.checkEmpty(firstName, lastName, email);
+    let alertText, alertType;
   })
 } 
   
