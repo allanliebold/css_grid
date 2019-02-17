@@ -26,7 +26,8 @@ function eventListeners() {
       alertText = 'customer added';
       alertType = 'success';
     } else {
-      
+      alertText = 'please fill in all info';
+      alertType = 'error';
     }
   })
 } 
