@@ -9,6 +9,7 @@ function eventListeners() {
   // toggle nav bar
   document.querySelector('.navBtn').addEventListener('click', () => ui.showNav());
 
+  // video controls
   document.querySelector('.video__switch').addEventListener('click', () => ui.videoControls());
   
 function UI() {};
