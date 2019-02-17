@@ -41,3 +41,6 @@ UI.prototype.videoControls = () => {
   btn.classList.toggle('btnSlide');
 }
 UI.prototype.checkEmpty = (firstName, lastName, email) => !(firstName === '' || lastName == '' || email === '');
+UI.prototype.showFeedback = (text, type) => {
+  let feedback = document.querySelector('.drink-form__feedback');  
+}
