@@ -47,5 +47,7 @@ UI.prototype.showFeedback = (text, type) => {
   feedback.innerText = text; 
 }
 UI.prototype.removeAlert = (type) => {
- 
+  setTimeout(() => {
+    document.querySelector('.drink-form__feedback').classList.remove(type);
+  }, 3000);
 }
