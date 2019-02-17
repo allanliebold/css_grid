@@ -57,3 +57,9 @@ UI.prototype.removeAlert = (type) => {
     document.querySelector('.drink-form__feedback').classList.remove(type);
   }, 3000);
 }
+
+UI.prototype.clearFields = () => {
+  document.querySelector('.input-name').value = '';
+  document.querySelector('.input-lastname').value = '';
+  document.querySelector('.input-email').value = '';
+}
