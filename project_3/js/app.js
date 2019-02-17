@@ -13,7 +13,12 @@ function eventListeners() {
   document.querySelector('.video__switch').addEventListener('click', () => ui.videoControls());
   
   document.querySelector('.drink-form').addEventListener('submit', (event) => {
-    event.preventDefault();                                                
+    event.preventDefault();
+    const firstName = document.querySelector('.input-name').value;
+    const lastName = document.querySelector('.input-lastname').value;
+    const email = document.querySelector('.input-email').value; 
+    
+    let value = ui.checkEmpty(firstName, lastName, email);
   })
 } 
   
