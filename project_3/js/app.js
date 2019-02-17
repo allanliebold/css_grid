@@ -12,6 +12,9 @@ function eventListeners() {
   // video controls
   document.querySelector('.video__switch').addEventListener('click', () => ui.videoControls());
   
+  document.querySelector('.drink-form').addEventListener('submit, (event) => {
+                                                         
+  }
 } 
   
 function UI() {};
