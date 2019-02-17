@@ -20,6 +20,12 @@ function eventListeners() {
     
     let value = ui.checkEmpty(firstName, lastName, email);
     let alertText, alertType;
+    
+    if(value) {
+      let customer = new Customer(firstName, lastName, email);
+    } else {
+      
+    }
   })
 } 
   
