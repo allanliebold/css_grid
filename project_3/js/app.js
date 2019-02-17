@@ -20,3 +20,4 @@ UI.prototype.videoControls = () => {
   btn.classList.contains('btnSlide') ? video.play() : video.pause();
   btn.classList.toggle('btnSlide');
 }
+UI.prototype.checkEmpty = (firstName, lastName, email) => !(firstName === '' || lastName == '' || email === '');
