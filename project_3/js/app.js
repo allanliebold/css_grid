@@ -42,5 +42,7 @@ UI.prototype.videoControls = () => {
 }
 UI.prototype.checkEmpty = (firstName, lastName, email) => !(firstName === '' || lastName == '' || email === '');
 UI.prototype.showFeedback = (text, type) => {
-  let feedback = document.querySelector('.drink-form__feedback');  
+  let feedback = document.querySelector('.drink-form__feedback'); 
+  feedback.classList.add(type);
+  feedback.innerText = text; 
 }
