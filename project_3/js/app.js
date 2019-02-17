@@ -23,6 +23,7 @@ function eventListeners() {
     
     if(value) {
       let customer = new Customer(firstName, lastName, email);
+      ui.addCustomer(customer);
       alertText = 'customer added';
       alertType = 'success';
       ui.clearFields();
