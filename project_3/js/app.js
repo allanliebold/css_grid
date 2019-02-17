@@ -58,7 +58,11 @@ UI.prototype.removeAlert = (type) => {
     document.querySelector('.drink-form__feedback').classList.remove(type);
   }, 3000);
 }
-
+UI.prototype.addCustomer = (customer) => {
+  const images = [1,2,3,4,5];
+  let random = Math.floor(Math.random() * images.length);
+  const div = document.createElement('div');
+}
 UI.prototype.clearFields = () => {
   document.querySelector('.input-name').value = '';
   document.querySelector('.input-lastname').value = '';
