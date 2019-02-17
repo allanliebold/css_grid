@@ -29,6 +29,9 @@ function eventListeners() {
       alertText = 'please fill in all info';
       alertType = 'error';
     }
+    
+    ui.showFeedback(alertText, alertType);
+    ui.removeAlert(alertType);
   })
 } 
   
