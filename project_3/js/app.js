@@ -9,6 +9,8 @@ function eventListeners() {
   // toggle nav bar
   document.querySelector('.navBtn').addEventListener('click', () => ui.showNav());
 
+  document.querySelector('.video__switch').addEventListener('click', () => ui.videoControls());
+  
 function UI() {};
 
 UI.prototype.hidePreloader = () => document.querySelector('.preloader').style.display = 'none'; 
