@@ -23,6 +23,8 @@ function eventListeners() {
     
     if(value) {
       let customer = new Customer(firstName, lastName, email);
+      alertText = 'customer added';
+      alertType = 'success';
     } else {
       
     }
