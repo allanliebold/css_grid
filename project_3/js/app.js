@@ -14,7 +14,7 @@ function eventListeners() {
   
   document.querySelector('.drink-form').addEventListener('submit, (event) => {
                                                          
-  }
+  })
 } 
   
 function UI() {};
