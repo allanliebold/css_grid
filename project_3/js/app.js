@@ -76,4 +76,11 @@ UI.prototype.clearFields = () => {
 }
 UI.prototype.showModal = (event) => {
   event.preventDefault();
+  if(event.target.parentElement.classList.contains('work-item__icon')) {
+    let id = event.target.parentElement.dataset.id;
+    const modal = document.querySelector('.work-modal');
+    const modalItem = document.querySelector('.work-modal__item');
+    modal.classList.add('work-modal--show');
+    modalItem.style.backgroundImage = `url(img/work-${id}.jpeg)`;
+  } 
 }
