@@ -84,3 +84,6 @@ UI.prototype.showModal = (event) => {
     modalItem.style.backgroundImage = `url(img/work-${id}.jpeg)`;
   } 
 }
+UI.prototype.closeModal = () => {
+  document.querySelector('.work-modal').classList.remove('work-modal--show');  
+}
