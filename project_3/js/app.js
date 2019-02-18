@@ -74,6 +74,6 @@ UI.prototype.clearFields = () => {
   document.querySelector('.input-lastname').value = '';
   document.querySelector('.input-email').value = '';
 }
-UI.prototype.showModal = () => {
-
+UI.prototype.showModal = (event) => {
+  event.preventDefault();
 }
