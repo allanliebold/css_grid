@@ -6,3 +6,7 @@
   --green: #51CB20;
   --black: #000000;  
 }
+
+.container {
+  border: 5px solid var(--black); 
+}
