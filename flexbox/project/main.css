@@ -28,3 +28,15 @@ body {
 nav {
   flex: 0 0 auto; 
 }
+nav ul {
+    list-style-type: none;
+}
+nav ul li a {
+    display: block;
+    color: var(--lightBlue);
+    background: transparent; 
+    text-decoration: none; 
+    padding: 10px; 
+    font-size: 20px; 
+    transition: color 1s ease, background .5s ease, padding .5s ease;
+}
