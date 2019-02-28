@@ -43,4 +43,5 @@ nav ul li a {
 nav ul li a: hover {
   color: var(--gray);
   padding-left: 60px;
+  background: var(--lightBlue);
 }
