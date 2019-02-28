@@ -62,3 +62,11 @@ nav ul li a: hover {
   background: var(--lightBlue);
   color: var(--gray);
 }
+
+#menu-btn {
+  padding: 5px;
+  border: 2px solid var(--lightBlue);
+  cursor: pointer;
+  align-self: center;
+}
+
