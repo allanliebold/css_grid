@@ -70,3 +70,23 @@ nav ul li a: hover {
   align-self: center;
 }
 
+.bar1,
+.bar2,
+.bar3 {
+  height: 5px;
+  width: 35px;
+  background-color: var(--lightBlue);
+  margin: 5px 0;
+  transition: transform .1s ease;
+}
+
+.turn .bar1 {
+  transform: rotate(-45deg) translate(-7px, 6px); 
+}
+.turn .bar2 {
+  opacity: 0; 
+}
+
+.turn .bar3 {
+  transform: rotate(45deg) translate(-7px, -8px); 
+}
