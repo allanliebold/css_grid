@@ -41,5 +41,6 @@ nav ul li a {
     transition: color 1s ease, background .5s ease, padding .5s ease;
 }
 nav ul li a: hover {
-  color: var(--gray); 
+  color: var(--gray);
+  padding-left: 60px;
 }
