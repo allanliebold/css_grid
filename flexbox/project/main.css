@@ -45,3 +45,20 @@ nav ul li a: hover {
   padding-left: 60px;
   background: var(--lightBlue);
 }
+
+#nav-top {
+  display: flex;
+  justify-content: space-between;
+  padding: 20px 20px 20px 10px;
+}
+#nav-top h3 {
+  font-size: 30px;
+  padding: 5px;
+  color: var(--lightBlue);
+  border: 3px solid;
+  transition: color 2s ease, background 2s ease;
+}
+#nav-top h3:hover {
+  background: var(--lightBlue);
+  color: var(--gray);
+}
