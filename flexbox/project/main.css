@@ -116,4 +116,7 @@ nav ul li a: hover {
     color: var(--gray);
     background: var(--darkBlue);
   }
+  nav ul li .link-icon:hover {
+    background: #008dff; 
+  }
 }
