@@ -90,3 +90,7 @@ nav ul li a: hover {
 .turn .bar3 {
   transform: rotate(45deg) translate(-7px, -8px); 
 }
+
+@media screen and (min-width:690px) {
+  
+}
