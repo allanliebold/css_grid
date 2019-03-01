@@ -144,3 +144,7 @@ nav ul li a: hover {
   color: var(--gray);
   text-align: center;
 }
+#banner-title { 
+  text-transform: capitalize;
+  font-size: 60px;
+}
