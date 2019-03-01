@@ -112,4 +112,8 @@ nav ul li a: hover {
   nav ul .icon {
     flex: 0 0 20px; 
   }
+  nav ul li .link-icon {
+    color: var(--gray);
+    background: var(--darkBlue);
+  }
 }
