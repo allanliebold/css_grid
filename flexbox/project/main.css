@@ -98,4 +98,7 @@ nav ul li a: hover {
     flex-wrap: wrap;
     padding: 0 20px;
   }
+  #menu btn {
+    display: none; 
+  }
 }
