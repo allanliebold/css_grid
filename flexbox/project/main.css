@@ -140,3 +140,7 @@ nav ul li a: hover {
   align-items: center;
   justify-content: center; 
 }
+#banner-box {
+  color: var(--gray);
+  text-align: center;
+}
