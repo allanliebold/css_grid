@@ -119,4 +119,10 @@ nav ul li a: hover {
   nav ul li .link-icon:hover {
     background: #008dff; 
   }
+  nav ul a {
+    text-align: center; 
+  }
+  nav ul a:hover {
+    padding: 10px !important; 
+  }
 }
