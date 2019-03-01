@@ -125,4 +125,7 @@ nav ul li a: hover {
   nav ul a:hover {
     padding: 10px !important; 
   }
+  #nav-top {
+    padding: 10px; 
+  }
 }
