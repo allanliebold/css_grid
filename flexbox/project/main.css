@@ -109,4 +109,7 @@ nav ul li a: hover {
   nav ul li {
     flex: 1 0 125px; 
   }
+  nav ul .icon {
+    flex: 0 0 20px; 
+  }
 }
