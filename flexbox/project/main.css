@@ -129,3 +129,8 @@ nav ul li a: hover {
     padding: 10px; 
   }
 }
+
+/*#### Banner ####*/
+#banner {
+  background: url(images/banner-img.jpeg); 
+}
