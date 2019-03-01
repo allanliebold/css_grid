@@ -133,4 +133,10 @@ nav ul li a: hover {
 /*#### Banner ####*/
 #banner {
   background: url(images/banner-img.jpeg); 
+  background-attachment: fixed;
+  background-size: cover;
+  background-position: center;
+  display: flex;
+  align-items: center;
+  justify-content: center; 
 }
