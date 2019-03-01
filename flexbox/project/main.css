@@ -102,6 +102,7 @@ nav ul li a: hover {
     display: none; 
   }
   nav ul {
+    display: flex !important;
     flex: 1 1 auto;
     flex-wrap: wrap;
   }
