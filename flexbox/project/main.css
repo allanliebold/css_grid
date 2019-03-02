@@ -158,3 +158,6 @@ nav ul li a: hover {
   text-transform: capitalize;
   font-size: 25px;
 }
+#banner-box a {
+  display: inline-box; 
+}
