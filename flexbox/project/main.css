@@ -162,7 +162,9 @@ nav ul li a: hover {
   display: inline-box; 
   padding: 10px;
   font-size: 30px;
+  text-decoration: none;
   color: var(--gray);
   background: var(--lightBlue);
   border: 3px solid var(--lightBlue);
+  transition: background 1s ease, border 0.5s ease;
 }
