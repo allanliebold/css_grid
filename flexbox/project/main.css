@@ -153,3 +153,8 @@ nav ul li a: hover {
   margin: 10px auto;
   border: 3px solid var(--lightBlue);
 }
+.banner-subtitle {
+  margin: 20px 0 40px 0;
+  text-transform: capitalize;
+  font-size: 25px;
+}
