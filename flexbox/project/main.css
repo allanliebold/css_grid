@@ -172,3 +172,8 @@ nav ul li a: hover {
   background: transparent;
   border: 3px solid var(--gray); 
 }
+
+/*#### Skills ####*/
+#skills {
+  padding: 40px;  
+}
