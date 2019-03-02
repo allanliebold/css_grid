@@ -177,3 +177,7 @@ nav ul li a: hover {
 #skills {
   padding: 40px;  
 }
+.skill {
+  text-align: center;
+  margin: 20px 0;
+}
