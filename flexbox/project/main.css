@@ -204,3 +204,8 @@ nav ul li a: hover {
   width: 75%;
   margin: 0 auto;
 }
+
+.title {
+  margin: 10px 0 40px 0;
+  cursor: pointer;
+}
