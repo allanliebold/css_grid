@@ -196,5 +196,6 @@ nav ul li a: hover {
 .skill h3 {
   margin: 10px 0 15px 0;
   font-size: 30px;
+  text-transform: capitalize;
   color: var(--lightBlue);
 }
