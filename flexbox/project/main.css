@@ -193,3 +193,8 @@ nav ul li a: hover {
   background: var(--lightBlue);
   color: var(--gray);
 }
+.skill h3 {
+  margin: 10px 0 15px 0;
+  font-size: 30px;
+  color: var(--lightBlue);
+}
