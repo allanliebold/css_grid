@@ -214,3 +214,8 @@ nav ul li a: hover {
   text-transform: capitalize;
   color: var(--darkGrey);
 }
+.title-underline {
+  width: 70px;
+  border: 3px solid var(--lightBlue);
+  transition: width 1s ease, border 1s ease;
+}
