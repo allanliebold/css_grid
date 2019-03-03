@@ -209,3 +209,8 @@ nav ul li a: hover {
   margin: 10px 0 40px 0;
   cursor: pointer;
 }
+.title-text {
+  font-size: 60px;
+  text-transform: capitalize;
+  color: var(--darkGrey);
+}
