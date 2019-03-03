@@ -219,3 +219,7 @@ nav ul li a: hover {
   border: 3px solid var(--lightBlue);
   transition: width 1s ease, border 1s ease;
 }
+.title:hover .title-underline {
+  width: 200px;
+  border: 3px solid red;
+}
