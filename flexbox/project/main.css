@@ -188,3 +188,8 @@ nav ul li a: hover {
   font-size: 60px; 
   transition: transform 0.5s ease-in, background 0.5s ease, color 0.5s ease;
 }
+.skill .fa:hover {
+  transform: scale(0.7);
+  background: var(--lightBlue);
+  color: var(--gray);
+}
