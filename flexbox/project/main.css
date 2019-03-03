@@ -199,3 +199,8 @@ nav ul li a: hover {
   text-transform: capitalize;
   color: var(--lightBlue);
 }
+.skill p {
+  line-height: 1.5;
+  width: 75%;
+  margin: 0 auto;
+}
