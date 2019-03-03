@@ -183,4 +183,6 @@ nav ul li a: hover {
 }
 .skill .fa {
   color: var(--lightBlue); 
+  padding: 20px; 
+  border-radius: 50%;
 }
