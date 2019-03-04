@@ -224,6 +224,7 @@ nav ul li a: hover {
   border: 3px solid red;
 }
 
+/* Flexbox version 
 @media screen and (min-width:576px) {
   .skills-center {
     max-width: 90vw;
@@ -237,3 +238,4 @@ nav ul li a: hover {
     flex: 0 1 calc(50% - 2em); 
   }
 }
+*/
