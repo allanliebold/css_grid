@@ -248,3 +248,9 @@ Grid version */
     grid-column-gap: 10px;
   }
 }
+
+@media screen and (mind-width: 992px) {
+  skills-center {
+    grid-template-columns: repeat(4, 1fr); 
+  }
+}
