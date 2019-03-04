@@ -238,4 +238,13 @@ nav ul li a: hover {
     flex: 0 1 calc(50% - 2em); 
   }
 }
-*/
+Grid version */
+@media screen and (min-width: 576px) {
+  .skills-center {
+    min-width: 90vw;
+    margin: 0 auto;
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    grid-column-gap: 10px;
+  }
+}
