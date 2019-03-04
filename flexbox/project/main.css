@@ -226,6 +226,14 @@ nav ul li a: hover {
 
 @media screen and (min-width:576px) {
   .skills-center {
-    max-width: 90vw; 
+    max-width: 90vw;
+    margin: 0 auto;
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+  }
+  
+  .skill {
+    flex: 0 1 calc(50% - 2em); 
   }
 }
