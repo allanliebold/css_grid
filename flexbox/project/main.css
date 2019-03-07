@@ -255,3 +255,7 @@ Grid version */
   }
 }
 /* #### About #### */
+#about {
+  padding: 40px;
+  background: var(--mediumGray);
+}
