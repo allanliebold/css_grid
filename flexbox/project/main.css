@@ -292,3 +292,20 @@ Grid version */
   background: transparent;
   border: 2px solid var(--gray);
 }
+
+/* Flex version
+@media screen and (min-width:776px) {
+  #about {
+    display: flex;
+  }
+  #about-text {
+    min-height: 40vh;
+    flex: 0 0 60%;
+  }
+  #about-video {
+    min-height: 40vh;
+    flex: 0 0 40%;
+  }
+}
+
+Grid version */
