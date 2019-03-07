@@ -271,3 +271,7 @@ Grid version */
   color: var(--gray);
   font-size: 35px;
 }
+
+#about-text p {
+  margin: 20px 0;
+}
