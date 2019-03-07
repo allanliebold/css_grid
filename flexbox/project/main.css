@@ -309,3 +309,9 @@ Grid version */
 }
 
 Grid version */
+@media screen and (min-width:776px) {
+  #about {
+    display: grid;
+    grid-template-columns: 60% 40%;
+  }
+}
