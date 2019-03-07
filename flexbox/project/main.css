@@ -261,3 +261,7 @@ Grid version */
   padding: 40px;
   background: var(--mediumGray);
 }
+
+#about-text {
+  padding: 40px; 
+}
