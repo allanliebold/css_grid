@@ -275,3 +275,15 @@ Grid version */
 #about-text p {
   margin: 20px 0;
 }
+
+#about-text a {
+  display: inline-block;
+  text-decoration: none;
+  font-size: 30px;
+  padding: 10px;
+  text-transform: uppercase;
+  color: var(--gray);
+  border: 2px solid var(--lightBlue);
+  background: var(--lightBlue);
+  transition: background 0.5s ease, border 0.5s ease;
+}
