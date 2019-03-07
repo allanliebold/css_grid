@@ -314,4 +314,8 @@ Grid version */
     display: grid;
     grid-template-columns: 60% 40%;
   }
+  #about-text,
+  #about-video {
+    min-height: 40vh; 
+  }
 }
