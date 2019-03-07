@@ -262,6 +262,7 @@ Grid version */
   background: var(--mediumGray);
 }
 
-#about-text {
+#about-text,
+#about-video {
   padding: 40px; 
 }
