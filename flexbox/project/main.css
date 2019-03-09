@@ -342,6 +342,7 @@ Grid version */
   margin-top: 10px;
   line-height: 1.5;
 }
-.service:hover .fa {
+.service:hover .fa,
+.service:hover .service-subtitle {
   color: rgba(0,0,0,0.8);
 }
