@@ -342,3 +342,6 @@ Grid version */
   margin-top: 10px;
   line-height: 1.5;
 }
+.service:hover .fa {
+  color: rgba(0,0,0,0.8);
+}
