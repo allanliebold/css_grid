@@ -324,3 +324,7 @@ Grid version */
 #services {
   padding: 40px; 
 }
+.service {
+  margin: 30px 0;
+  display: flex;
+}
