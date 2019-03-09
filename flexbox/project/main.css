@@ -338,3 +338,7 @@ Grid version */
   color: var(--lightBlue);
   font-size: 20px;
 }
+.service-info {
+  margin-top: 10px;
+  line-height: 1.5;
+}
