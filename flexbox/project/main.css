@@ -328,3 +328,8 @@ Grid version */
   margin: 30px 0;
   display: flex;
 }
+.service-icon .fa {
+  font-size: 60px;
+  color: var(--lightBlue);
+  margin-right: 20px;
+}
