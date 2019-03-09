@@ -346,3 +346,6 @@ Grid version */
 .service:hover .service-subtitle {
   color: rgba(0,0,0,0.8);
 }
+.service:hover .service-info {
+  color: rgb(147,147,147); 
+}
