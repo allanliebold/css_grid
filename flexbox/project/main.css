@@ -333,3 +333,8 @@ Grid version */
   color: var(--lightBlue);
   margin-right: 20px;
 }
+.service-subtitlte {
+  text-transform: capitalize;
+  color: var(--lightBlue);
+  font-size: 20px;
+}
