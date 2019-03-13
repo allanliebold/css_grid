@@ -381,3 +381,7 @@ Grid version */
 }
 
 /* #### Portfolio #### */
+#portfolio {
+  padding: 40px;
+  background: var(--mediumGray);
+}
