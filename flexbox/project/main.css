@@ -402,3 +402,6 @@ Grid version */
   cursor: pointer;
   opacity: 1;
 }
+#portfolio img:hover {
+  opacity: 0.4; 
+}
