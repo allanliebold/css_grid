@@ -398,4 +398,7 @@ Grid version */
 #portfolio img {
   display: block;
   width: 100%;
+  min-height: 300px;
+  cursor: pointer;
+  opacity: 1;
 }
