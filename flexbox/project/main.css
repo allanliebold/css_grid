@@ -394,3 +394,8 @@ Grid version */
   margin: 10px 0;
   overflow: hidden;
 }
+
+#portfolio img {
+  display: block;
+  width: 100%;
+}
