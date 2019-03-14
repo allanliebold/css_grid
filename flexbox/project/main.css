@@ -442,3 +442,7 @@ Grid version */
   transform: translateY(-10px);
   background: var(--darkBlue);
 }
+.section-btn {
+  text-align: center;
+  margin: 20px 0 10px 0;
+}
