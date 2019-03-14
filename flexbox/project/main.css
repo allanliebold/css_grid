@@ -436,6 +436,7 @@ Grid version */
   padding: 10px;
   background: var(--gray);
   border-radius: 50%;
+  transition: transform 1s ease, background 1s ease;
 }
 .image-overlay .fa:hover {
   transform: translateY(-10px);
