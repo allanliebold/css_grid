@@ -437,3 +437,7 @@ Grid version */
   background: var(--gray);
   border-radius: 50%;
 }
+.image-overlay .fa:hover {
+  transform: translateY(-10px);
+  background: var(--darkBlue);
+}
