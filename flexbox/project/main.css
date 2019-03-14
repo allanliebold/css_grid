@@ -421,3 +421,6 @@ Grid version */
   background: var(--darkGrey);
   transition: margin 1s ease;
 }
+.work:hover .image-overlay {
+  margin-bottom: 0; 
+}
