@@ -424,3 +424,9 @@ Grid version */
 .work:hover .image-overlay {
   margin-bottom: 0; 
 }
+.image-text h3 {
+  text-transform: uppercase;
+  font-size: 20px;
+  margin-bottom: 5px;
+  color: var(--gray);
+}
