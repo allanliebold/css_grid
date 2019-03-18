@@ -554,5 +554,9 @@ Grid version */
 }
 
 @media screen and (min-width:992px) {
-  
+  .numbers-center {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    grid-column-gap: 10px;
+  }
 }
