@@ -507,3 +507,7 @@ Grid version */
   text-align: center;
   transition: transform 1s ease;
 }
+.number:hover {
+  transform: translateY(-10px);
+  cursor: pointer;
+}
