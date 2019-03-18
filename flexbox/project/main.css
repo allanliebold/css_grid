@@ -515,3 +515,8 @@ Grid version */
   font-size: 60px;
   color: var(--lightBlue);
 }
+.number h2 {
+  font-size: 40px;
+  margin: 10px 0;
+  font-weight: 900;
+}
