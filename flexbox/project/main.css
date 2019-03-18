@@ -511,3 +511,7 @@ Grid version */
   transform: translateY(-10px);
   cursor: pointer;
 }
+.number .fa {
+  font-size: 60px;
+  color: var(--lightBlue);
+}
