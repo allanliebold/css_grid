@@ -520,3 +520,7 @@ Grid version */
   margin: 10px 0;
   font-weight: 900;
 }
+.number h5 {
+  font-size: 23px;
+  color: var(--mediumGray);
+}
