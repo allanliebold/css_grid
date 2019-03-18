@@ -560,3 +560,7 @@ Grid version */
     grid-column-gap: 10px;
   }
 }
+
+@media screen and (min-width:992px) {
+  
+}
