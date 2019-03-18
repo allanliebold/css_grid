@@ -539,7 +539,9 @@ Grid version */
 }
 
 @media screen and (min-width:776px) {
-  
+  .number {
+    flex: 0 0 calc(25% - 10px);
+  }
 }
 
 Grid version */
