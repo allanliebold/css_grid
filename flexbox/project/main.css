@@ -591,4 +591,6 @@ Grid version */
 }
 .footer-info h5 {
   color: #959595; 
+  margin: 10px 0;
+  text-transform: uppercase;
 }
