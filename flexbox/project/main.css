@@ -586,3 +586,6 @@ Grid version */
   padding: 20px;
   justify-content: space-between;
 }
+.footer-info h3 {
+  color: var(--lightBlue); 
+}
