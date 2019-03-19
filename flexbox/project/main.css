@@ -569,5 +569,6 @@ Grid version */
 
 /* #### Team #### */
 #team {
-  
+  padding: 40px;
+  background: #959595;
 }
