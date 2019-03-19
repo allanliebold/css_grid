@@ -576,3 +576,8 @@ Grid version */
   background: var(--gray);
   margin: 20px 0;
 }
+.team-member img {
+  display: block;
+  width: 100%;
+  max-height: 300px;
+}
