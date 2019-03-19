@@ -598,3 +598,10 @@ Grid version */
   color: #959595;
   margin: 0 5px;
 }
+.footer-icon {
+  font-size: 40px;
+  color: var(--lightBlue);
+  opacity: 0;
+  align-self: center;
+  transition: transform 1s ease, opacity 1s ease;
+}
