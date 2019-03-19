@@ -594,3 +594,7 @@ Grid version */
   margin: 10px 0;
   text-transform: uppercase;
 }
+.social-icon .fa {
+  color: #959595;
+  margin: 0 5px;
+}
