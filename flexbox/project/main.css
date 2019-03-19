@@ -605,3 +605,6 @@ Grid version */
   align-self: center;
   transition: transform 1s ease, opacity 1s ease;
 }
+.footer-icon:hover {
+  transform: rotate(-90deg); 
+}
