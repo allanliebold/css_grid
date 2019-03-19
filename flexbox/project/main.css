@@ -613,5 +613,14 @@ Grid version */
 }
 
 /* Flex version
+@media screen and (min-width:576px) {
+  #team-center {
+    min-width: 90vw;
+    margin: 0 auto;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+  }
+}
 
 Grid version */
