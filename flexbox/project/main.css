@@ -608,3 +608,6 @@ Grid version */
 .footer-icon:hover {
   transform: rotate(-90deg); 
 }
+.team-member:hover, .footer-icon {
+  opacity: 1; 
+}
