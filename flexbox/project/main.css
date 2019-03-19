@@ -572,3 +572,7 @@ Grid version */
   padding: 40px;
   background: #959595;
 }
+.team-member {
+  background: var(--gray);
+  margin: 20px 0;
+}
