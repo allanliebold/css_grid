@@ -645,3 +645,7 @@ Grid version */
 }
 
 /* #### Customers #### */
+#customers {
+  padding: 40px;
+  background: #191919;
+}
