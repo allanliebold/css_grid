@@ -655,3 +655,7 @@ Grid version */
   text-align: center;
   margin: 20px 0;
 }
+.customer img {
+  border-radius: 50%;
+  max-width: 200px;
+}
