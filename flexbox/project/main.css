@@ -649,3 +649,9 @@ Grid version */
   padding: 40px;
   background: #191919;
 }
+
+.customer {
+  color: var(--gray);
+  text-align: center;
+  margin: 20px 0;
+}
