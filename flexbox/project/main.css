@@ -637,3 +637,9 @@ Grid version */
     grid-column-gap: 1em;
   }
 }
+
+@media screen and (min-width:992px) {
+  #team-center {
+    grid-template-columns: repeat(4, 1fr); 
+  }
+}
