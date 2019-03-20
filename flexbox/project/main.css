@@ -628,3 +628,12 @@ Grid version */
 }
 
 Grid version */
+@media screen and (min-width:576px) {
+  #team-center {
+    display: grid;
+    min-width: 90vw;
+    margin: 0 auto;
+    grid-template-columns: repeat(2, 1fr);
+    grid-column-gap: 1em;
+  }
+}
