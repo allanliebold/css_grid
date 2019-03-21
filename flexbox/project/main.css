@@ -681,6 +681,9 @@ Grid version */
     flex-wrap: wrap;
     justify-content: space-between;
   }
+  .customer {
+    flex: 0 0 calc(33.3% - 1em);
+  }
 }
 
 Grid version */
