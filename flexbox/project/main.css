@@ -668,3 +668,8 @@ Grid version */
   text-transform: uppercase;
   color: #959595;
 }
+.customer p {
+  line-height: 1.5;
+  width: 75%;
+  margin: 10px auto;
+}
