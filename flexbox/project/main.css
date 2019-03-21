@@ -664,3 +664,7 @@ Grid version */
   text-transform: capitalize;
   color: var(--lightBlue);
 }
+.customer h5 {
+  text-transform: uppercase;
+  color: #959595;
+}
