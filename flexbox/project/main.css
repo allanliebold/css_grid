@@ -694,3 +694,10 @@ Grid version */
     grid-column-gap: 1em;
   }
 }
+
+/* #### Contact #### */
+#contact {
+  padding: 40px;
+  background: var(--lightBlue);
+  color: var(--gray);
+}
