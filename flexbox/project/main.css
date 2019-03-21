@@ -687,3 +687,10 @@ Grid version */
 }
 
 Grid version */
+@media screen and (min-width:776px) {
+  .customers-center {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-column-gap: 1em;
+  }
+}
