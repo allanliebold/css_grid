@@ -701,3 +701,6 @@ Grid version */
   background: var(--lightBlue);
   color: var(--gray);
 }
+#contact .title-underline {
+  border-color: var(--gray); 
+}
