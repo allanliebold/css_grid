@@ -676,7 +676,11 @@ Grid version */
 
 /* Flex version
 @media screen and (min-width:576px) {
-
+  .customers-center {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+  }
 }
 
 Grid version */
