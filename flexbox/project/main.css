@@ -659,3 +659,8 @@ Grid version */
   border-radius: 50%;
   max-width: 200px;
 }
+.customer h3 {
+  margin: 10px 0;
+  text-transform: capitalize;
+  color: var(--lightBlue);
+}
