@@ -709,3 +709,6 @@ Grid version */
   margin: 20px;
   font-size: 30px;
 }
+.item-info .fa {
+  margin-right: 20px; 
+}
