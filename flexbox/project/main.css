@@ -726,3 +726,15 @@ form input {
 form input::placeholder {
   color: #f5f5f; 
 }
+
+#customer-info a {
+  display: block;
+  padding: 20px;
+  margin-top: 30px;
+  text-decoration: none;
+  font-size: 30px;
+  display: flex;
+  justify-content: space-around;
+  background: #191919;
+  transition: background 1s ease;
+}
