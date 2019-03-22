@@ -742,3 +742,7 @@ form input::placeholder {
 #customer-info a:hover {
   background: var(--mediumGray); 
 }
+
+/* Flex version
+
+Grid version */
