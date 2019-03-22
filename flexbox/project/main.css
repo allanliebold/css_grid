@@ -738,3 +738,7 @@ form input::placeholder {
   background: #191919;
   transition: background 1s ease;
 }
+
+#customer-info a:hover {
+  background: var(--mediumGray); 
+}
