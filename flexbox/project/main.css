@@ -744,5 +744,12 @@ form input::placeholder {
 }
 
 /* Flex version
+@media screen and (min-width:776px) {
+  .contact-center {
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+  }
+}
 
 Grid version */
