@@ -750,6 +750,11 @@ form input::placeholder {
     justify-content: space-between;
     flex-wrap: wrap;
   }
+  #company-info {
+    flex: 0 0 calc(50% - 10px);
+  }
+  #customer-info {
+    flex: 0 0 calc(50% - 10px);
+  }
 }
-
 Grid version */
