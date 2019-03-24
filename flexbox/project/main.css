@@ -240,6 +240,7 @@ nav ul li a: hover {
     flex: 0 1 calc(50% - 2em); 
   }
 }
+
 Grid version */
 @media screen and (min-width: 576px) {
   .skills-center {
