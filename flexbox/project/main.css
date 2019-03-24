@@ -756,6 +756,7 @@ form input::placeholder {
     flex: 0 0 calc(50% - 10px);
   }
 }
+
 Grid version */
 @media screen and (min-width:776px) {
   .contact-center {
