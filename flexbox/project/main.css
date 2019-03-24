@@ -16,6 +16,7 @@ body {
   background: var(--gray);
 }
 
+/* #### Header #### */
 #header {
   display: flex; 
   flex-direction: column;
