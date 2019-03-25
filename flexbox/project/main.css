@@ -705,6 +705,7 @@ Grid version */
 #contact .title-underline {
   border-color: var(--gray); 
 }
+
 .item-info {
   display: flex;
   margin: 20px;
