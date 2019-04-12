@@ -40,8 +40,7 @@
         height: 100vh;
         grid-template-columns: repeat(5, 1fr);
         grid-template-rows: repeat(4, 1fr);
-    }
-    
+    }    
     .item {
         font-size: 40px;
         text-transform: none;
