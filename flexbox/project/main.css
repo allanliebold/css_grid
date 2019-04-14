@@ -352,6 +352,7 @@ Grid version */
 .service:hover .service-info {
   color: rgb(147,147,147); 
 }
+
 /* Flex version
 @media screen and (min-width:576px) { 
   .services-center {
