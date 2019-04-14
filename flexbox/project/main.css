@@ -76,7 +76,7 @@ nav ul li a: hover {
 .bar2,
 .bar3 {
   height: 5px;
-  width: 35px;
+  width: 30px;
   background-color: var(--lightBlue);
   margin: 5px 0;
   transition: transform .1s ease;
