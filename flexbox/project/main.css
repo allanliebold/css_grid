@@ -89,7 +89,6 @@ nav ul li a: hover {
 .turn .bar2 {
   opacity: 0; 
 }
-
 .turn .bar3 {
   transform: rotate(45deg) translate(-7px, -8px); 
 }
