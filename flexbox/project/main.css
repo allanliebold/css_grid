@@ -369,7 +369,6 @@ Grid version */
     flex: 0 0 calc(33.3% - 1em);
   }
 }
-
 Grid version */
 @media screen and (min-width:576px) {
   .services-center {
