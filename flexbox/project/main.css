@@ -756,6 +756,7 @@ form input::placeholder {
 }
 
 Grid version */
+
 @media screen and (min-width:776px) {
   .contact-center {
     display: grid;
