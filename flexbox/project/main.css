@@ -77,7 +77,6 @@ nav ul li a: hover {
   margin: 5px 0;
   transition: transform .1s ease;
 }
-
 .turn .bar1 {
   transform: rotate(-45deg) translate(-7px, 6px); 
 }
