@@ -763,4 +763,7 @@ Grid version */
     grid-template-columns: repeat(2, 1fr);
     grid-column-gap: 1em;
   }
+  #info {
+    
+  }
 }
