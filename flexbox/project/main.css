@@ -477,6 +477,7 @@ Grid version */
     flex: 0 0 calc(33.3% - 15px);
   }
 }
+
 Grid version */
 @media screen and (min-width:576px) {
   .portfolio-center {
