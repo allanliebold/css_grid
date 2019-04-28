@@ -764,6 +764,6 @@ Grid version */
     grid-column-gap: 1em;
   }
   #info {
-    
+    display: grid;  
   }
 }
