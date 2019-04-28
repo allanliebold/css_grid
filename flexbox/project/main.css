@@ -236,6 +236,7 @@ nav ul li a: hover {
 }
 
 Grid version */
+
 @media screen and (min-width: 576px) {
   .skills-center {
     min-width: 90vw;
