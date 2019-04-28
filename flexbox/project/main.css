@@ -720,6 +720,7 @@ form input {
   border: none;
   border-bottom: 4px solid var(--gray);
 }
+
 form input::placeholder {
   color: #f5f5f; 
 }
