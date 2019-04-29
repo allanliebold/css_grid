@@ -229,7 +229,6 @@ nav ul li a: hover {
     justify-content: space-between;
     flex-wrap: wrap;
   }
-  
   .skill {
     flex: 0 1 calc(50% - 2em); 
   }
